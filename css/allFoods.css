@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    color: #1c8030;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    color: #1c8030;
+    margin-top: 2rem;
+    font-weight: 600;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 1.5rem;
+}
+
+ul, ol {
+    padding-left: 1.5rem;
+    margin: 1rem 0;
+    line-height: 1.6;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+.main-image {
+    width: 40%;
+    max-width: 400px; 
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul li {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+}
+
+a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #1c8030;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #337641;
+}
+
+/* ===================Video Responsiveness=========== */
+.video-container {
+    margin: 1.5rem 0;
+    overflow: hidden;
+}
+
+iframe {
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+}
+
+/* =================Lists===================== */
+ul, ol {
+    padding-left: 1.2rem;
+}
+
+li {
+    margin-bottom: 0.8rem;
+}
+
+@media (min-width: 425px) {
+    .container {
+        padding: 1.5rem;
+    }
+
+    .main-image {
+        max-width: 350px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    body {
+        padding: 2rem;
+    }
+    
+    .container {
+        max-width: 700px;
+        padding: 2rem;
+    }
+      
+    .main-image {
+        max-width: 450px;
+    }
+    
+    iframe {
+        height: 400px;
+    }
+    
+    li {
+        line-height: 1.7;
+    }
+}
+
